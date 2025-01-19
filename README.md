@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A powerful Python tool that recursively harvests TikTok user data by traversing through follower networks. Starting with a seed username (0dayctf) it will then grab the followers data. After reaching the end of pagination for a user it will then use the secUid from another user to get their followers (Private accounts will be attempted then moved past gracefully). A new msToken is grabbed when 30 seconds has passed and no new unique users are found to ensure functionality. 
+A powerful Python tool that recursively harvests TikTok user data by traversing through follower networks. Starting with a seed username (0dayctf) it will then grab the followers data. After reaching the end of pagination for a user it will then use the secUid from another user to get their followers (Private accounts will be attempted then moved past gracefully). A new msToken is grabbed when 30 seconds has passed and no new unique users are found to ensure functionality. A unique users list is created and checked names to keep track for future runs if you crash or need to run it again in the future.
 
 ```
 uniqueId,followerCount,followingCount,videoCount,nickname,secUid,signature
