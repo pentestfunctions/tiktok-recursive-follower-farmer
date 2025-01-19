@@ -121,6 +121,7 @@ pip install -r requirements.txt
 1. Set up your environment:
    ```bash
    # Ensure geckodriver is in your project directory
+   https://github.com/mozilla/geckodriver/releases
    # Create empty files for data storage
    touch checked_names.txt tiktok_users.csv
    ```
