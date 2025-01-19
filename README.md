@@ -13,6 +13,18 @@ A powerful Python tool that recursively harvests TikTok user data by traversing 
 uniqueId,followerCount,followingCount,videoCount,nickname,secUid,signature
 ```
 
+Using IQR to remove statisical outliers to give a more average user profiling.
+```
+Total Users Checked After Removing Outliers: 902869
+Average Follower Count: 600.18
+Average Following Count: 3667.77
+Average Video Count: 14.01
+```
+
+The most average user after comparing distance is:
+3motional_mushro0m,678,4132,18,🍂 From The Earth. 🍂,MS4wLjABAAAAotLGwZLQqOSm-j1fK4n04sr3lfWQ8lxC5_8KiYDbWsjc0wa5TMDs9zdAMNW3j8NX,"My name is Kris Come Here Often? 🪲Status: 🌃 🪲"
+
+
 # 📊 TikTok User Data Reference
 
 Below is a comprehensive table showing example data collected by the scraper, including user statistics and profile information.
